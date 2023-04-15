@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.txt-dcr, header .all_header .container_content .content_header .left a {
+  text-decoration: none;
+}
+
+.container, header .all_header .container_content {
+  width: 95% !important;
+  margin: 0 auto;
+}
+
+header {
+  padding: 20px 0;
+  background-color: #f6f7f8;
+}
+header .all_header .container_content .content_header .left a {
+  color: #666666;
+  margin-right: 25px;
+}
+header .all_header .container_content .content_header .left .diff {
+  border: 1px solid #0056c1;
+  color: #0056c1;
+  border-radius: 20px;
+  padding: 6px 12px;
+  transition: 0.5s;
+}
+header .all_header .container_content .content_header .left .diff:hover {
+  background-color: #0056c1;
+  color: #fff;
+}
+header .all_header .container_content .content_header .right span {
+  margin-left: 15px;
+  color: #666666;
+  cursor: pointer;
+}
+header .all_header .container_content .content_header .right span i {
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.all {
+  position: relative;
+}
+.all input {
+  padding: 60px 42px;
+  border: none;
+}
+.all ::-moz-placeholder {
+  font-size: 40px;
+}
+.all ::placeholder {
+  font-size: 40px;
+}
+.all i {
+  position: absolute;
+  top: 50%;
+  right: 28px;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.all *:focus {
+  outline: none;
+}
+
+input[type=text] {
+  font-size: 40px;
+  color: #666666;
+}
+
+.active {
+  display: none;
+}
+
+.active2 {
+  transform: rotate(180deg);
+}
+
+.arrow {
+  transition: 0.5s;
+}
+
+.language {
+  width: 170px;
+  background-color: white;
+  position: absolute;
+  right: 110px;
+  top: 50px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
